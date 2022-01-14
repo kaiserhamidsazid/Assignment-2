@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+    background:wheat;
+}
+/*-----------
+     This is Header
+-------------------- */
+.head_section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:120px;
+    margin-top:45px;
+}
+.nav_bar{
+    display: flex;
+    margin-right:120px;
+}
+.nav_bar a{
+    text-decoration: none;
+    margin-right:30px;
+    color:black;
+}
+.nav{
+    font-size:16px;
+}
+.font_awesome{
+    font-size: 24px;
+}
+.fa-shopping-cart{
+    margin-left: 34px;
+}
+/*---------------------------- 
+          This is section 2 
+-----------------------------*/
+.section_1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:120px;
+    
+}
+.div_1{
+    margin-top:106px;
+    font-weight: 700px;
+}
+.div_1 h3{
+    font-size:42px;
+}
+.div_2{
+    margin-bottom:40px;
+}
+.button a{
+    padding:12px 15px;
+    border-radius: 31px;
+    text-decoration:none;
+}
+.button_1{
+    background-color:#E02C6D;
+    color:#ffffff;
+}
+.fa-arrow-right{
+    margin-left:10px;
+}
+.camera{
+    margin-top:80px;
+}
+/*----------------------------
+        This is logo section
+----------------------------- */
+.logo_section{
+    
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    box-shadow: 10px 10px 40px wheat;
+    margin:90px 120px;
+    padding:15px;
+}
+/*-----------------------------------------------------
+    This is section 3/Popular Collection section
+------------------------------------------------------ */
+.section_3{
+    margin:30px 120px;
+}
+.Collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+.popular{
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}
+article{
+    background-color:white;
+    border-radius: 5px;
+}
+.product{
+    margin:10px;
+}
+.product_photo img{
+    width:100%;
+}
+.product_price{
+    font-size:22px;
+}
+.ratings{
+    margin-top:10px;
+    font-size:12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+/*------------------
+            This is footer section 
+            --------------------------------*/
+footer{
+    margin:90px  120px 0px 120px;
+    background:#0c0000;
+    color:white;
+    padding:15px;
+}
+.footer_head{
+    text-align: center;
+    font-size:22px;
+}
+.copyright{
+    text-align: center;
+}
+.reseverd{
+    text-align: center;
+}
+.media_links{
+    text-align: center;
+}
+.media_links a{
+    
+    text-decoration:none;
+    color:white;
+}
+.links{
+    margin-right: 8px;
+    font-size:16px;
+}
