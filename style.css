@@ -387,9 +387,10 @@ footer{
     .section_1{
         display:flex;
         flex-direction: column;
+        margin-left:50px;
     }
     .div_1{
-        width: 688px;
+        width:500px;
     }
     .div_1 h3{
         font-size: 40px;
