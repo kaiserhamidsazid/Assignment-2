@@ -281,11 +281,16 @@ footer{
         display:flex;
         flex-direction: column;
     }
+    .div_1{
+        width:400px;
+        margin-right: 0;
+        margin-left: 0;
+    }
     .div_1 h3{
         font-size: 30px;
     }
     .camera img{
-        width:80%;
+        width:20%;
     }
     /* This is differnt company logo section */
     .logo_section{
@@ -381,9 +386,13 @@ footer{
         display:flex;
         flex-direction: column;
     }
+    .div_1{
+        width: 688px;
+    }
     .div_1 h3{
         font-size: 40px;
     }
+   
     /* This is differnt company logo section */
    
     .logo_section{
