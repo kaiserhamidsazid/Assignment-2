@@ -241,6 +241,8 @@ footer{
 --------------------------*/
 
 @media (max-width:688px){
+
+    /* This header/nav section */
     label.logo{
         font-size: 20px;
     }
@@ -273,6 +275,8 @@ footer{
     #check:checked ~ ul{
         left:0;
     }
+    /* This is Site second section/Influencer section */
+    
     .section_1{
         display:flex;
         flex-direction: column;
@@ -283,6 +287,7 @@ footer{
     .camera img{
         width:80%;
     }
+    /* This is differnt company logo section */
     .logo_section{
         width:100%;
         display: grid;
@@ -295,6 +300,7 @@ footer{
     .svg_file{
         margin-left:20px;
     }
+    /* This sell section means collection section of site */
     .Collection{
         width:100%;
         display:block;
@@ -309,6 +315,7 @@ footer{
     .login_container{
         margin-right:60px;
     }
+    /* This site extra section/login section  */
     .form_head h3{
         font-size:25px;
         margin-left:-90px;
@@ -323,6 +330,7 @@ footer{
         height:30px;
         width:60x;
     }
+    /* This is footer section */
     footer{
         width:100%;
         margin:20px 0px 0px 0px;
@@ -332,8 +340,9 @@ footer{
                                  For Ipad or tab view 
 ------------------------------------------------------*/
 @media only screen and (min-width: 688px) and (max-width:988px) {
+    /* This is site Header/nav section */
     label.logo{
-        font-size: 30px;
+        font-size: 20px;
     }
     nav ul li a{
         font-size: 16px;
@@ -367,6 +376,7 @@ footer{
     #check:checked ~ ul{
         left:0;
     }
+   /* THis is site second/camera  section  */
     .section_1{
         display:flex;
         flex-direction: column;
@@ -374,6 +384,7 @@ footer{
     .div_1 h3{
         font-size: 40px;
     }
+    /* This is differnt company logo section */
    
     .logo_section{
         width:100%;
@@ -387,6 +398,7 @@ footer{
     .svg_file{
         margin-left:20px;
     }
+    /* This is site selling section */
     .Collection{
         width:100%;
         grid-template-columns: repeat(2,1fr); 
@@ -395,6 +407,7 @@ footer{
         margin:10px;
         
     }
+    /* This is website login section */
     .login_container{
         margin-right:60px;
     }
@@ -412,6 +425,7 @@ footer{
         height:30px;
         width:60x;
     }
+    /* This is the last part means footer section */
     footer{
         width:100%;
         margin:20px 0px 0px 0px;
