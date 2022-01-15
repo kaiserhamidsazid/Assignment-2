@@ -16,30 +16,30 @@
 <body>
     <!-- This is Header section -->
     <header>
-        <section class="head_section">
-        <div class="influence">
-            <h3>Influencer products</h3>
-        </div>
-        <div class="nav_bar">
-            <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">Sign Up</a>
-            <a href="#">Log In</a>
-            </div>
-            <div class="font_awesome">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-shopping-cart"></i>
-            </div>
-        </div>
-    </section>
+        <nav>
+            <input type="checkbox"id="check">
+            <label for ="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Influencer Product</label>
+            <ul> 
+                 <li><a class="active anchor" href="#">Home</a></li>
+                 <li><a class="anchor" href="#">Products</a></li>
+                 <li><a class="anchor" href="#">Sign Up</a></li>
+                 <li><a class="anchor" href="#">Log In</a></li>
+            </ul> 
+            
+        
+        </nav>
     </header>
+    <!-- Main section is staring from here... -->
     <main>
+        <!-- This is Section Number 1 -->
         <section class="section_1">
             <div class="div_1">
                 <div class="div_2">
                 <h3>Start Your Journey as<br>Influencer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius voluptatem quod quia voluptatum, tempore minima magni commodi nobis incidunt!</p>
+                <p>Influencer are trust worth voices in a specific niche.Influencers are valubale because they offer instant access to the credibility a growing company needs.</p>
                 </div>
                 <div class="button">
                 <a href="#" class="button_1">Preebook now
@@ -52,14 +52,15 @@
                 <img src="images/main-camera.png">
             </div>
         </section>
+        <!-- This is differnt logo section -->
         <section class="logo_section">
             <img src="logos/Alibaba.svg">
             <img src="logos/Amazon.svg">            
             <img src="logos/Daraz.pk Logo.svg">            
             <img src="logos/Ebay.svg">            
-            <img src="logos/Rakuten.svg">            
-            <img src="logos/Walmart.svg">            
-            <img src="logos/Target.svg">            
+            <img  class="svg_file" src="logos/Rakuten.svg">            
+            <img  class="svg_file" src="logos/Walmart.svg">            
+            <img  class="svg_file" src="logos/Target.svg">            
 
         </section>
         <!-- This is section 3/Its Product section -->
@@ -78,6 +79,7 @@
                 <div class="product_price">
                     <span>$50.48</span>
                 </div>
+                <!-- This is ratings section -->
                 <div class="ratings">
                     <i class="fas fa-star filled"></i>
                     <i class="fas fa-star filled"></i>
@@ -267,7 +269,30 @@
             </article>
            </div>
         </section>
+        <span class="more_span"><a href="#">See More<i class="fas fa-arrow-right"></i></a></span>
     </main>
+    <!-- Main section End Here -->
+        <!-- This is extra section and also a form section -->
+    <section class="form_section">
+        <div class="form_head">
+        <h3>To be Our Team member</h3>
+        </div>
+        <div class="login_container">
+            <form action="" class="login_form">
+                <input type="text" name="name" id="name"placeholder="Please Enter Your Name"required>
+                <input type="e-mail" name="E-mail" id="email"placeholder="Please Enter Your E-mail"required>
+                <labe for="phone"></labe>
+                <input type="tel" name="phone" id="phone"placeholder="Please Enter Your Number"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+                <textarea placeholder="You can Write your Opinion here......"></textarea>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- This is Footer section -->
     <footer>
         <div class="footer_head">
             <span>Influencer Products</span>
